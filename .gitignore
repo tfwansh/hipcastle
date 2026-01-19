@@ -1,0 +1,241 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+*.test.tsx.snap
+*.test.ts.snap
+
+# Next.js
+/.next/
+/out/
+.next
+out
+
+# Vite
+dist
+dist-ssr
+*.local
+.vite
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Turbo
+.turbo
+
+# PWA files
+**/public/workbox-*.js
+**/public/sw.js
+**/public/worker-*.js
+
+# Sentry
+.sentryclirc
+
+# Storybook
+storybook-static
+
+# Contentlayer
+.contentlayer
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Lock files (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+*.lnk
+ehthumbs.db
+
+# Linux
+.directory
+.Trash-*
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Build artifacts
+*.tgz
+*.tar.gz
+*.zip
+
+# Monorepo
+.turbo
+.changeset
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated files
+generated/
+.generated/
+
+# API keys and secrets (be extra careful)
+secrets.json
+credentials.json
+service-account.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# CDK
+cdk.out/
+
+# Python (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# Rust (if using Rust tooling)
+/target/
+Cargo.lock
+
+# Go (if using Go)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output
+
+# Benchmark results
+benchmarks/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# MacOS
+._*
+.Spotlight-V100
+.Trashes
+
+# CTags
+tags
+.tags
+TAGS
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Project specific
+/public/uploads/
+/public/assets/generated/
